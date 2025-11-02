@@ -1,0 +1,21 @@
+{
+  "WorkingDir": "C:\\Users\\oleksandr.ilchuk\\RiderProjects\\VideoCompressor.NET",
+  "InputDirName": "input",
+  "OutputDirName": "output",
+  "FfmpegPath": "ffmpeg",
+  "DefaultCrf": 28,
+  "DefaultCodec": "libx265",
+  "DefaultPreset": "slow",
+  "DefaultFps": 30,
+  "DefaultScale": null,
+  "DefaultAudioCodec": "aac",
+  "DefaultAudioBitrate": "128k",
+  "DefaultExt": ".mp4",
+  "CustomPresets": {
+    "veryfast": "-preset veryfast -crf 30",
+    "fast": "-preset fast -crf 28",
+    "medium": "-preset medium -crf 26",
+    "slow": "-preset slow -crf 24",
+    "hq": "-preset slower -crf 22"
+  }
+}
